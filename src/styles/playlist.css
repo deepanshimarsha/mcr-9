@@ -1,0 +1,41 @@
+.playlist-main{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.playlist-card a{
+    text-decoration: none;
+    color: black;
+}
+.playlist-card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    cursor: pointer;
+}
+.playlist-card .remove{
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.playlist-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.add-icon i {
+    font-size: 40px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.playlist-cover  img{
+    max-width: 300px;
+    max-height: 170px;
+}

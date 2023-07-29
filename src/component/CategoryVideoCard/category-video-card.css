@@ -1,0 +1,26 @@
+.card-main{
+    display: flex;
+    flex-direction: column;
+}
+.video-desc{
+    display: flex;
+    margin-top: 20px;
+    gap: 1rem;
+}
+.category-thumbnail img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.desc .title{
+    font-weight: 600;
+}
+
+.desc .views{
+    font-size: 14px;
+}

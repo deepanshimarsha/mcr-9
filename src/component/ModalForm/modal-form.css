@@ -1,0 +1,6 @@
+.playlist-btn{
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: flex-end;
+}

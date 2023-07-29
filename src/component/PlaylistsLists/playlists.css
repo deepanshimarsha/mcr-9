@@ -1,0 +1,13 @@
+.list-main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.modal-playlist-main{
+    width: 100%;
+}
+
+.modal-playlist-cover img{
+    width: 80%;
+}
