@@ -8,6 +8,9 @@ export default function SideNavbar() {
         <li className="nav-item">
           <NavLink
             to="/"
+            style={({ isActive }) => ({
+              fontWeight: isActive ? "700" : "400",
+            })}
             className="nav-link py-3"
             aria-current="page"
             title=""
@@ -44,6 +47,9 @@ export default function SideNavbar() {
         <li className="nav-item">
           <NavLink
             to="/explore"
+            style={({ isActive }) => ({
+              fontWeight: isActive ? "700" : "400",
+            })}
             className="nav-link py-3 "
             title=""
             data-bs-toggle="tooltip"
@@ -91,6 +97,9 @@ export default function SideNavbar() {
         <li className="nav-item">
           <NavLink
             to="/playlist"
+            style={({ isActive }) => ({
+              fontWeight: isActive ? "700" : "400",
+            })}
             className="nav-link py-3"
             title=""
             data-bs-toggle="tooltip"
@@ -106,6 +115,9 @@ export default function SideNavbar() {
         <li className="nav-item">
           <NavLink
             to="/watchlater"
+            style={({ isActive }) => ({
+              fontWeight: isActive ? "700" : "400",
+            })}
             className="nav-link py-3 "
             title=""
             data-bs-toggle="tooltip"
